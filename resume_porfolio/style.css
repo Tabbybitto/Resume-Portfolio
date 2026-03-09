@@ -1,0 +1,84 @@
+.page{
+  max-width: 590px;
+  min-width: 300px;
+  margin: 0 auto;
+  line-height: 1.6;  
+  position: relative; z-index:1;
+  text-align: center;  
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0f021d;
+  background-color: #bce1f0;}
+
+h1{
+  max-width: 600px;
+  margin-top: 30px;
+  line-height: 1.6;
+  text-align: center;  
+  padding: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #a5d9f0;
+  background-color: #17062b;
+}
+h2{
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-align: center;  
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #a5d9f0;
+  background-color: #36125e;
+}
+h3{
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-align: center;  
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #a5d9f0;
+  background-color: #36125e;
+}
+body, p{
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-align: center;  
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0f021d;
+  background-color: #bce1f0;
+}
+@media (max-width:320px){
+nav ul li
+{
+  display:inline; 
+  text-align: middle;
+   overflow: hidden; 
+   padding: 15px;
+   background-color: #0f021d;  
+   position: fixed; 
+   z-index:999;
+  }
+}
+@media(min-width:600px)
+{
+  nav ul li{display:inline;
+   text-align: left;
+   overflow: hidden;
+   padding: 15px;
+   background-color: #0f021d;  
+   position: fixed; 
+  z-index:999;}
+}
+img {
+  width:100%;
+  position: relative;
+  animation-name: blink;
+  animation-duration: 2s;
+}
+@keyframes blink {
+  0%   { opacity: 0;}
+  100% {opacity: 1;}
+}
